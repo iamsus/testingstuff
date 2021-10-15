@@ -1,1 +1,1 @@
-web: gunicorn -b :$8080 hellworld:app --log-file -
+web: gunicorn -b :$PORT hellworld:app --log-file -
