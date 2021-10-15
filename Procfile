@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT helloworld:run --log-file -
+"web: python hello.py" 
