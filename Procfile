@@ -1,1 +1,1 @@
-web: gunicorn helloworld:app --log-file -
+web: gunicorn -b :$8080 hellworld:app --log-file -
